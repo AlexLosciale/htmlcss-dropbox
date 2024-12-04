@@ -3,3 +3,39 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+header{
+    border: 1px solid #DFDFE1;
+}
+
+.header-1-left{
+    width: 49.8%;
+    display: inline-block;
+    padding: 1% 5% 1% 0%;
+}
+
+.header-1-right{
+    width: 49.8%;
+    display: inline-block;
+    padding: 1% 0% 1% 5%;
+    text-align: right;
+}
+
+.header-2{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1%;
+    margin-right: 1%;
+}
+
+.button1{
+    background-color: white;
+    border: 0;
+}
+
+.button2{
+    background-color: #0061FE;
+    padding: 7px 13px;
+    border: 0;
+    color: white;
+}
