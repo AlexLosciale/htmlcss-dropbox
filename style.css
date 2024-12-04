@@ -1,10 +1,14 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
 header{
+    border: 1px solid #DFDFE1;
+}
+
+main{
     border: 1px solid #DFDFE1;
 }
 
@@ -38,4 +42,127 @@ header{
     padding: 7px 13px;
     border: 0;
     color: white;
+}
+
+.main-top{
+    padding: 5% 15% 0% 15%;
+    background-color: #B4D0E6;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.main-top div{
+    display: flex;
+    height: 360px;
+    margin-top: 3%;
+}
+
+.main-top2{
+    height: 360px;
+    width: 100px;
+    flex-grow: 1;
+}
+
+.main-top2 .button2{
+    margin-top: 5%;
+}
+
+.main-top2 .annullare{
+    margin-top: 7%;
+}
+
+.main-top3{
+    height: 360px;
+    width: 100px;
+    flex-grow: 2;
+}
+
+
+.main-button{
+    height: 1000px;
+    padding: 10% 15% 0 15%;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.fattura{
+    display: inline-block;
+}
+
+.circol{
+    height: 20px;
+    width: 20px;
+    border: 3px solid #DFDFE1;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.circol2{
+    height: 20px;
+    width: 20px;
+    border: 3px solid #DFDFE1;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 3%;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.container{
+    width: 30%;
+    height: 600px;
+    border: 1px solid #DFDFE1;
+}
+
+.container-top{
+    height: 50px;
+    border: 1px solid #DFDFE1;
+    text-align: center;
+    padding: 5%;
+}
+
+.container-bottom{
+    padding: 10% 7% 10% 7%;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.container-bottom p{
+    margin-top: 5%;
+}
+
+.mese{
+    margin-bottom: 10%;
+    font-size: small;
+    color: #8fa6b8;
+}
+
+.container-bottom-p{
+    display: inline-block;
+}
+
+.container-bottom a{
+    display: inline-block;
+}
+
+.container-bottom hr{
+    width: 20%;
+    margin-left: 6%;
+    margin-top: 12%;
+}
+
+.container-bottom div{
+    margin-top: 15%;
 }
