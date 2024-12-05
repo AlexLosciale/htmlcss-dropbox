@@ -18,26 +18,32 @@ main{
 .header-1-left{
     width: 49.8%;
     display: inline-block;
-    padding: 1% 5% 1% 0%;
+    padding: 2%% 5% 0% 0%;
 }
 
 .header-1-right{
     width: 49.8%;
     display: inline-block;
-    padding: 1% 0% 1% 5%;
+    padding: 1% 0% 0% 5%;
     text-align: right;
 }
 
 .header-2{
     display: inline-block;
     vertical-align: middle;
-    padding: 1%;
+    padding: 2%;
     margin-right: 1%;
+}
+
+.header-line:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
 }
 
 .button1{
     background-color: white;
     border: 0;
+    cursor: pointer;
 }
 
 .button2{
@@ -45,6 +51,7 @@ main{
     padding: 7px 13px;
     border: 0;
     color: white;
+    cursor: pointer;
 }
 
 .button2:hover{
@@ -58,16 +65,15 @@ main{
 
 h1{
     font-size: 70px;
+    margin-top: 5%;
 }
 
 .main-top div{
     display: flex;
-    height: 360px;
     margin-top: 3%;
 }
 
 .main-top2{
-    height: 360px;
     width: 100px;
     flex-grow: 1;
 }
@@ -78,17 +84,20 @@ h1{
 
 .main-top2 .annullare{
     margin-top: 7%;
+    margin-bottom: 35%;
+}
+
+.main-arrow{
+    font-size: 35px;
 }
 
 .main-top3{
-    height: 360px;
     width: 100px;
     flex-grow: 2;
 }
 
 
 .main-button{
-
     padding: 10% 15% 10% 15%;
 }
 
@@ -133,7 +142,6 @@ h2{
 }
 
 .container-top{
-    height: 50px;
     border: 1px solid #DFDFE1;
     text-align: center;
     padding: 5%;
@@ -223,17 +231,16 @@ li{
 }
 
 .img-test{
-    height: 500px;
     display: flex;
 }
 
 .img{
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
 .test{
-    flex-grow: 8;
-    padding: 5% 3% 2% 3%;
+    flex-grow: 4;
+    padding: 5% 3% 4% 3%;
 }
 
 .test h4{
@@ -248,6 +255,7 @@ li{
 .bottomtest{
     background-color: white;
     padding: 3%;
+    cursor: pointer;
 }
 
 .bottomtest:hover{
@@ -289,14 +297,12 @@ h6{
 }
 
 footer{
-    height: 500px;
     background-color: rgb(0, 0, 0);
-    padding: 2% 10% 2% 10%;
+    padding: 3% 10% 2% 10%;
     color: white;
 }
 
 .container-footer{
-    height: 400px;
     display: flex;
     gap: 3%;
 }
