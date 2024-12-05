@@ -18,7 +18,7 @@ main{
 .header-1-left{
     width: 49.8%;
     display: inline-block;
-    padding: 2%% 5% 0% 0%;
+    padding: 2% 5% 0% 0%;
 }
 
 .header-1-right{
@@ -157,6 +157,7 @@ h3{
 
 .container-bottom p{
     margin-top: 5%;
+    text-indent: -8px;
 }
 
 .mese{
@@ -187,6 +188,7 @@ h3{
 ul{
     list-style-type:none;
     padding: 0%;
+    text-indent: -7px;
 }
 
 .ul-title{
